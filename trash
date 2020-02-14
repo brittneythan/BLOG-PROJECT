@@ -1,0 +1,657 @@
+<html>
+<style>
+@import url("https://fonts.googleapis.com/css?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+/* TOP___________________________________________________________ */
+
+header {
+  height: 120px;
+  border-bottom: 100px solid #9aeaf3;
+  width: 605px;
+  position: relative;
+  left: 600px;
+  top: 30px;
+}
+.title {
+  color: white;
+  font-size: 48px;
+  font-family: "Bungee", cursive;
+  position: absolute;
+  top: -40px;
+}
+.blue-box {
+  border: 2px solid #9aeaf3;
+  border-radius: 15%;
+  background-color: #9aeaf3;
+  text-align: center;
+  width: 150px;
+  height: 90px;
+  padding: 5px;
+  position: absolute;
+  top: 50px;
+}
+.subtitle {
+  font-family: "Fredoka One", cursive;
+  color: white;
+}
+.pink-box {
+  border: 3px pink;
+  height: 70px;
+  width: 350px;
+  background-color: pink;
+  border-radius: 30%;
+  position: absolute;
+  top: 76px;
+  left: 200px;
+  z-index: -1;
+  text-align: center;
+}
+.by{
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  position: absolute;
+ top: 180px;
+  left: 10px;
+}
+/* TOP-MIDDLE____________________________________________________ */
+
+.white-box {
+  border: 3px solid white;
+  font-size: 20px;
+  font-family: "Fredoka One", cursive;
+  background: white;
+ 
+  height: 61px;
+  width: 600px;
+  position: relative;
+  left: 340px;
+ bottom: 4920px;
+}
+.white-box2 {
+  bottom:4920px;
+  font-size: 20px;
+  font-family: "Julius Sans One", sans-serif;
+  position: relative;
+  left: 340px;
+  border: 3px solid white;
+  background: white;
+  height: 67px;
+  width: 600px;
+}
+
+/* WORDS_________________________________________________________ */
+
+.recipe1 {
+  border: 3px solid white;
+  background-color: white;
+  position: relative;
+  padding: 10px;
+  width: 480px;
+  height: 260px;
+  left: 30px;
+  border-radius: 5%;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 16px;
+}
+.recipe2 {
+  border: 3px solid white;
+  background-color: white;
+  position: relative;
+  padding: 10px;
+  width: 480px;
+  height: 400px;
+  left: 35px;
+  border-radius: 5%;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 16px;
+}
+.recipe3 {
+  border: 3px solid white;
+  background-color: white;
+  position: relative;
+  padding: 10px;
+  width: 480px;
+  height: 296px;
+  left: 40px;
+  border-radius: 5%;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 16px;
+}
+.recipe4 {
+  border: 3px solid white;
+  background-color: white;
+  position: relative;
+  padding: 10px;
+  width: 480px;
+  height: 266px;
+  left: -10px;
+  top: 20px;
+  border-radius: 5%;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 16px;
+}
+.recipe5 {
+  margin: 7px;
+  border: 3px solid white;
+  background-color: white;
+  position: relative;
+  padding: 10px;
+  width: 480px;
+  height: 298px;
+  left: -15px;
+  border-radius: 5%;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 16px;
+}
+.recipe6 {
+  top: 20px;
+  border: 3px solid white;
+  background-color: white;
+  position: relative;
+  padding: 10px;
+  width: 480px;
+  height: 388px;
+  left: -50px;
+  border-radius: 5%;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 16px;
+}
+
+/* PICTURES______________________________________________________ */
+
+.pic1 {
+  margin: 20px;
+  position: relative;
+  border: 6px solid pink;
+  border-radius: 5%;
+  right: 5px;
+  width: 500px;
+}
+.pic2 {
+  margin: 20px;
+  position: relative;
+  border: 6px solid pink;
+  border-radius: 5%;
+  right: 5px;
+  transition-duration: 3s;
+  width: 500px;
+}
+
+.pic3 {
+  width: 500px;
+  margin: 20px;
+  position: relative;
+  border: 6px solid pink;
+  border-radius: 5%;
+  right: -5px;
+}
+.pic4 {
+  width: 500px;
+  margin: 20px;
+  position: relative;
+  border: 6px solid pink;
+  border-radius: 5%;
+  right: 35px;
+}
+.pic5 {
+  width: 500px;
+  margin: 20px;
+  position: relative;
+  border: 6px solid pink;
+  border-radius: 5%;
+  right: 30px;
+  top: 20px;
+}
+.pic6 {
+  width: 500px;
+  margin: 20px;
+  position: relative;
+  border: 6px solid pink;
+  border-radius: 5%;
+  right: 35px;
+}
+
+/* IMAGE HOVERINGS________________________________________________ */
+
+.image-div {
+  position: relative;
+  right: -12px;
+  border: 6px solid pink;
+  border-radius: 5%;
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  transition-duration: 5s;
+  background: url(https://images.britcdn.com/wp-content/uploads/2017/06/Dango_Donuts_11.jpg?w=1000&auto=format&q=50)
+    repeat;
+  background-position: center;
+}
+.image-div:hover {
+  width: 500px;
+  height: 300px;
+  background: url(https://images.britcdn.com/wp-content/uploads/2017/06/Dango_Donuts_12.jpg?auto=format&q=50)
+    repeat;
+  background-position: fix;
+}
+.image-div2 {
+  position: relative;
+  top: 20px;
+  left: -75px;
+  border: 6px solid pink;
+  border-radius: 5%;
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  transition-duration: 5s;
+  background: url(https://mymodernmet.com/wp/wp-content/uploads/archive/qRd-kswMQLk22zxHc1A1_vickiee_yo2.jpg)
+    repeat;
+  background-position: center;
+}
+.image-div2:hover {
+  width: 500px;
+  height: 300px;
+  background: url(https://mymodernmet.com/wp/wp-content/uploads/archive/vnZ50XALht2vTul9GVj3_vickiee_yo10.jpg)
+    repeat;
+  background-position: top;
+}
+.image-div4 {
+  position: relative;
+  top: 15px;
+  left: -30px;
+  border: 6px solid pink;
+  border-radius: 5%;
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  transition-duration: 5s;
+  background: url(https://www.cotta.jp/images/201706/06291555_5954a46212122.jpg)
+    repeat;
+  background-position: center;
+}
+.image-div4:hover {
+  width: 500px;
+  height: 300px;
+  background: url(https://i.pinimg.com/474x/23/ec/78/23ec78c22f49fa4bbf54d373a653e306--arco-iris-irises.jpg)
+    repeat;
+  background-position: center;
+}
+
+/* BACKGROUND HOVERS_____________________________________________ */
+
+.bear-div{
+  width: 500px;
+  height: 300px;
+  margin: 20px;
+  transition-duration: 3s;
+  background: url(https://image.freepik.com/free-photo/abstract-color-pastel-background-soft-sky-with-cloud-background-pastel-color_6529-37.jpg) repeat;
+  background-position: center;
+}
+.bear-div:hover {
+  width: 2500px;
+  height: 300px;
+  background: url(https://image.freepik.com/free-photo/abstract-color-pastel-background-soft-sky-with-cloud-background-pastel-color_6529-311.jpg) repeat;
+  background-position: center;
+}
+.bear-div2{
+  width: 500px;
+  height: 318px;
+  margin: 20px;
+  transition-duration: 3s;
+  background: url(https://image.freepik.com/free-photo/abstract-color-pastel-background-soft-sky-with-cloud-background-pastel-color_6529-37.jpg) repeat;
+  background-position: center;
+}
+.bear-div2:hover {
+  width: 2500px;
+  height: 318px;
+  background: url(https://image.freepik.com/free-photo/abstract-color-pastel-background-soft-sky-with-cloud-background-pastel-color_6529-311.jpg) repeat;
+  background-position: center;
+}
+
+/* BACKGROUND____________________________________________________ */
+
+.white-outline {
+  position: relative;
+ bottom:4850px;
+  left: 340px;
+  padding: 10px;
+  border: 6px solid white;
+  height: 4620px;
+  width: 575px;
+}
+
+body {
+  background-color: #e2fcff;
+}
+
+.radial-gradient {
+  background-image: radial-gradient(
+    farthest-corner at 40px 40px,
+    #fcfcae 5%,
+    pink 35%,
+    #9aeaf3 80%
+  );
+  width: 500px;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  height: 5163px;
+}
+
+.gradient {
+  background-image: linear-gradient(right to left, red, pink);
+}
+.right{
+  background-image: radial-gradient(
+    farthest-corner at 40px 40px,
+    #fcfcae 5%,
+    pink 35%,
+    #9aeaf3 80%
+  );
+  position: absolute;
+  right: -5px;
+  top: 1px;
+  float:right;
+  width: 560px;
+  height: 5163px;
+}
+
+/* GIFS__________________________________________________________ */
+
+img.animated-gif2 {
+  position: absolute;
+  top: 168px;
+  right: 770px;
+  width: 80px;
+  height: 80px;
+  z-index: 1;
+  border-radius: 10%;
+}
+img.animated-gif3 {
+  position: absolute;
+  top: 168px;
+  right: 988px;
+  width: 80px;
+  height: 80px;
+  z-index: 1;
+  border-radius: 10%;
+}
+img.animated-gif4 {
+  position: absolute;
+  top: 168px;
+  right: 880px;
+  width: 80px;
+  height: 80px;
+  z-index: 1;
+  border-radius: 10%;
+}
+</style>
+ 
+  <img class="animated-gif2" src="https://media0.giphy.com/media/pXFvhb3MVrNOE/giphy.gif">
+  <img class="animated-gif3" src="https://media1.tenor.com/images/5407f7eea655af625d6c6a9d194910ad/tenor.gif?itemid=13839227">
+  <img class="animated-gif4" src="https://media4.giphy.com/avatars/chibird/Y5Id1jkAgQmj.gif">
+  <div class="radial-gradient">  </div>
+  <div class="right"> </div>
+  <div class="gradient"> </div>
+  
+
+  <header>
+    <div class="blue-box">
+      <h1 class="title"> YUMZ </h1>
+    </div>
+   
+    <div class="pink-box">
+      <h3 class="subtitle">TOO CUTE FOR CONSUMPTION </h3>
+    </div>
+    <p class= "by"> By: Brittney Than </p>
+  </header>
+  <br> </br>
+   <div class= "bear-div" </div>
+<br> </br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+    <div class= "bear-div" </div>
+<br></br>
+<br> </br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+    <div class= "bear-div" </div>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br> </br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+    <div class= "bear-div" </div>
+<br></br>
+<br></br>
+<br></br>
+<br> </br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+    <div class= "bear-div" </div>
+<br></br>
+<br></br>
+<br></br>
+<br> </br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+ <div class= "bear-div" </div>
+<br></br>
+<br></br>
+<br></br>
+<br> </br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+ <div class= "bear-div" </div>
+<br></br>
+<br></br>
+<br></br>
+<br> </br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+ <div class= "bear-div" </div>
+<br></br>
+<br></br>
+<br></br>
+<br> </br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+ <div class= "bear-div" </div>
+<br></br>
+<br></br>
+<br></br>
+<br> </br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+ <div class= "bear-div" </div>
+<br></br>
+<br></br>
+<br></br>
+<br> </br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br> <div class= "bear-div" </div>
+<br></br>
+<br></br>
+<br></br>
+<br> </br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br> <div class= "bear-div" </div>
+<br></br>
+<br></br>
+<br></br>
+<br> </br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br> <div class= "bear-div2" </div>
+<br></br>
+<br></br>
+<br></br>
+<br> </br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+  <div>
+    <div class="white-box">
+      <p> HELLO, THERE ARE MANY DELICIOUS AND DESSERTFUL RECIPES YOU SHOULD TRY! </p>
+    </div>
+    <div class="white-box2">
+      <p>THESE RECIPES WILL HELP YOU OBTAIN AMAZING COOKING SKILLS! </p>
+    </div>
+  </div>
+  <p></p>
+  <div style="text-align:center">
+    <div class="white-outline">
+
+      <img class="pic1" src="https://i.pinimg.com/736x/f7/ba/2a/f7ba2a8b139bd2853c01cf521cf77666--japanese-drinks-japanese-snacks.jpg" width="500" alt: bear drowning>
+  
+      <div class="recipe1">
+        <b> <p> INSTRUCTIONS </p> </b>
+        <p> 1. Boil water and pour sticky rice flour into bowl. 2. Carefully add the boiled water into the bowl and knead. 3. Shape the sticky rice into desired shape once flour is soft and sticky. 4. Place the sticky rice into a cooking pot with some water
+          beneath until 25-30min. 5. Add fruits and sweetened water and serve. </p>
+        <b> <p>  INGREDIENTS </p> </b>
+<ul>
+        <li> sticky rice flour </li>
+        <li> sweetened water </li>
+        <li> fruits </li>
+        </ul>
+          
+      </div>
+<!--             <img class="dango" src="    http://thisis-japan.com/wp-content/uploads/2017/05/05610.jpeg" > -->
+      <div class="image-div"></div>
+<!--             <img class="pic2" src="https://images.britcdn.com/wp-content/uploads/2017/06/Dango_Donuts_11.jpg?w=1000&auto=format&q=50" width="500" alt: dango> -->
+      <div class="recipe2">
+        <b> <p> INSTRUCTIONS </p> </b>
+        <p> 1. Place the rice flour, silken tofu, and sugar in a large bowl and mix. 2. Divide the dough into three equal parts. 3.Add the Matcha powder into one of the dough parts and knead until the dough turns green. 4. Add a couple of small drops of pink
+          food colouring into one of the other dough and knead. 5. Roll each ball of dough into even-sized balls. 6. 7. Boil water in a pot and add the Dango balls. 8. Once the Dango raises to the surface of the water, scoop them out and put them into
+          a bowl of cold water to halt the cooking process. 9. Place one green, one white, and one pink Dango onto a skewer </p>
+        <b> <p>  INGREDIENTS </p> </b>
+        <ul>
+        <li>90 g Glutinous rice flour</li>
+        <li>90 g Silken tofu</li>
+        <li>2 tbs white sugar</li>
+        <li>1/4 tsp Matcha powder</li>
+        <li>A drop of Pink colouring</li>
+        </ul>
+      </div>
+  
+      <img class="pic3" src="https://www.seriouseats.com/recipes/images/2015/07/20140107-super-healthy-5-minute-fruit-mousse-nila-jones-9.jpg" width="500" alt:berry cup>
+      <div class="recipe3">
+        <b> <p> INSTRUCTIONS </p> </b>
+        <p> 1. Process fruits to a rough puree for about 1 minute. 2. Add the sugar and pulse briefly to combine. 3. Add the egg white and process until smooth and fluffy and the mixture has lightened in color and doubled or tripled in volume, 2 to 3 minutes.
+          4. Spoon the mousse into glasses and top or layer with fresh berries and serve. </p>
+        <b> <p>  INGREDIENTS </p> </b>
+        <ul>
+        <li>8 1/2 ounces frozen berries or other fruit </li>
+        <li>2 tablespoons of sugar </li>
+        <li>1 large egg white </li>
+        <li>Fresh berries </li>
+        </ul>
+<!--         <img class="image-div4" src="https://i.pinimg.com/474x/23/ec/78/23ec78c22f49fa4bbf54d373a653e306--arco-iris-irises.jpg" > -->
+        <div class="image-div4"></div>
+<!--         <img class="pic4" src="https://www.cotta.jp/images/201706/06291555_5954a46212122.jpg" width="500" alt:bear icecream> -->
+          <div class="recipe4">
+  <b> <p> INSTRUCTIONS </p> </b>
+        <p> 1.prepare ice 2. Create shaved ice with a blender by pressing the "crush" button for about a minute.  3. Add your flavouring to your shaved ice. 4. Add icecream to your shaved ice with a icecream scooper. 5. Decorate the serving with fruits and others. </p>
+        <b> <p>  INGREDIENTS </p> </b>
+        <ul>
+        <li> favored syrup </li>
+        <li>icecream </li>
+        <li>fruits </li>
+        <li>Ice </li>
+        </ul>
+        </div>
+        <img class="pic5" src="https://i.pinimg.com/474x/c5/0e/ae/c50eaeb8cd31a0252f471d3d6a6c4f44--kawaii-soda.jpg" width="500">
+         <div class="recipe5">
+        <b> <p> INSTRUCTIONS </p> </b>
+        <p> 1. In a bowl, combine beaten eggs, sugar, shortening and vanilla. Add milk. 2. In a separate bowl, sift flour with baking powder, salt and nutmeg. 3. Combine both liquid and dry ingredients until just smooth. 4. Roll out dough to ½-inch thickness. Cut into desired shapes. 5. In a deep fryer or a deep skillet filled with oil, fry donuts for 3 to 5 minutes at 375°F.</p>
+        <b> <p>  INGREDIENTS </p> </b>
+           <ul>
+        <li> Jello packet (colored) </li>
+        <li> hot water </li>
+        <li> icecream</li>
+        <li>Fruits (optional) </li>
+<!--            </ul> <img class="donut" src= "https://mymodernmet.com/wp/wp-content/uploads/archive/vnZ50XALht2vTul9GVj3_vickiee_yo10.jpg" alt: all donuts > -->
+             <div class="image-div2"></div>
+           
+<!--         <img class="pic6" src="https://mymodernmet.com/wp/wp-content/uploads/archive/qRd-kswMQLk22zxHc1A1_vickiee_yo2.jpg" width="500" alt: three donuts > -->
+              <div class="recipe6">
+        <b> <p> INSTRUCTIONS </p> </b>
+        <p> 1.In a bowl, combine beaten eggs, sugar, shortening and vanilla. Add milk. 2. In a separate bowl, sift flour with baking powder, salt and nutmeg. 3. Combine both liquid and dry ingredients until just smooth. 4. Roll out dough to ½-inch thickness. Cut into desired shapes. 5. In a deep fryer or a deep skillet filled with oil, fry donuts for 3 to 5 minutes at 375°F.</p>
+        <b> <p>  INGREDIENTS </p> </b>
+           <ul>
+        <li> 4 eggs </li>
+        <li> 2 cups sugar </li>
+        <li> ¾ cup shortening</li>
+        <li> 2 cups milk</li>
+        <li> 2 tsp vanilla</li>
+        <li> 8 cups flour, sifted</li>
+        <li> 2 Tbsp plus 2 tsp baking powder </li>
+        <li> 2 tsp salt</li>
+        <li> 2 tsp nutmeg</li>
+           </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+      
+ 
+</html>
